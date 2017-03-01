@@ -11,7 +11,7 @@ function sortedArray(arrNew){
 			   }
    	return arrNew;
    }
-
+//поверне індекс знайденого елемента(arrItem)
  function searchInArray(arrNew,arrItem){
 		var n = arrNew.length, i = 0;   
 		arrNew[n] = arrItem ;
